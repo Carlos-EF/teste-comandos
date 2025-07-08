@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Pattern</title>
+</head>
+<body>
+    <a href="index.html">Voltar</a>
+    <br>
+    <h1>Testes de patterns de HTML.</h1>
+
+    <form action="index.html" method="get">
+        
+    <label for="campo-cpf">CPF</label>
+    <input type="text" required pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" title="XXX.XXX.XXX-XX">
+
+    <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
