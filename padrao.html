@@ -13,7 +13,17 @@
     <form action="index.html" method="get">
         
     <label for="campo-cpf">CPF</label>
-    <input type="text" required pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" title="XXX.XXX.XXX-XX">
+    <input type="text" required pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" title="XXX.XXX.XXX-XX" id="campo-cpf" name="CPF">
+    <br>
+
+    <br>
+    <label for="campo-cep">CEP</label>
+    <input type="text" required pattern="[0-9]{5}-[0-9]{3}" title="XXXXX-XXX" id="campo-cep" name="CEP"> 
+    <br>
+
+    <br>
+    <label for="campo-tel">Celular</label>
+    <input type="tel" required pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" title="XX XXXXX-XXXX" id="campo-tel" name="Celular">
 
     <button type="submit">Enviar</button>
     </form>
